@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AssignmentApp</string>
+    <string name="search_by_restaurant">Search by restaurant name</string>
+    <string name="no_restaurants_found">No Restaurants found!</string>
+    <string name="action_search">Search</string>
+    <string name="best_match">Best Match</string>
+    <string name="newest">Newest</string>
+    <string name="rating_average">Rating Average</string>
+    <string name="distance">Distance</string>
+    <string name="popularity">Popularity</string>
+    <string name="average_product_price">Average Product Price</string>
+    <string name="delivery_cost">Delivery Cost</string>
+    <string name="minimum_cost">Minimum Cost</string>
+</resources>

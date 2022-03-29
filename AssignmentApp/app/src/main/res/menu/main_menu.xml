@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".views.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/best_match"
+        android:orderInCategory="100"
+        android:title="@string/best_match"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/newest"
+        android:orderInCategory="100"
+        android:title="@string/newest"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/rating_average"
+        android:orderInCategory="100"
+        android:title="@string/rating_average"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/distance"
+        android:orderInCategory="100"
+        android:title="@string/distance"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/popularity"
+        android:orderInCategory="100"
+        android:title="@string/popularity"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/average_product_price"
+        android:orderInCategory="100"
+        android:title="@string/average_product_price"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/delivery_cost"
+        android:orderInCategory="100"
+        android:title="@string/delivery_cost"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/minimum_cost"
+        android:orderInCategory="100"
+        android:title="@string/minimum_cost"
+        app:showAsAction="never"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+</menu>
